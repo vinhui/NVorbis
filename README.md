@@ -1,6 +1,8 @@
 NVorbis    [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ioctlLR/NVorbis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 -------
 
+_This is a fork designed for use with Unity. This repository can be added as a packagemanager package. To do this, add a new line to the `Packages/manifest.json` looking like this: `"com.vinhui.nvorbis": "https://github.com/vinhui/NVorbis.git",` (make sure it is still a valid json file)._
+
 NVorbis is a .Net library for decoding Xiph.org Vorbis files. It is designed to run in partial trust environments and does not require P/Invoke or unsafe code. It is built for .Net Standard 2.0 and .Net Framework 3.5.
 
 This implementation is based on the Vorbis specification found on xiph.org. The MDCT and Huffman codeword generator were borrowed from public domain implementations in https://github.com/nothings/stb/blob/master/stb_vorbis.c.
