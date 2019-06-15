@@ -1,0 +1,16 @@
+{
+	"name": "com.vinhui.nvorbis",
+	"displayName": "NVorbis",
+	"version": "1.0.0",
+	"unity": "2019.1",
+	"description": "NVorbis is a .Net library for decoding Xiph.org Vorbis files. https://github.com/ioctlLR/NVorbis",
+	"keywords": [
+		"vorbis",
+		"ogg",
+		"nvorbis",
+		"audio",
+		"sound"
+	],
+	"author": "ioctlLR (adapted by vinhui)",
+	"dependencies": {}
+}
